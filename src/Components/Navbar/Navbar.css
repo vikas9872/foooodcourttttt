@@ -1,0 +1,29 @@
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 125px;
+    color: rgb(227, 119, 5);
+}
+.navbarmenu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #495574;
+    font-size: 18px;
+}
+.navbarsigninbtn{
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(227, 119, 5);
+    border: 2px solid rgb(227, 119, 5);
+    padding: 10px;
+    border-radius: 25px;
+}
+.navbarmenu .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rebeccapurple;
+}
