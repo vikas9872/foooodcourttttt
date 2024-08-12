@@ -1,29 +1,46 @@
 .navbar{
-    padding: 20px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 8px;
 }
-.logo{
-    width: 125px;
-    color: rgb(227, 119, 5);
+.navbarCenter {
+    padding: 8px;
 }
-.navbarmenu{
+.navbarCenter ul {
     display: flex;
+}
+.navbarCenter ul li{
     list-style: none;
-    gap: 20px;
-    color: #495574;
-    font-size: 18px;
+    padding: 15px 20px;
 }
-.navbarsigninbtn{
-    background-color: transparent;
-    font-size: 16px;
-    color: rgb(227, 119, 5);
-    border: 2px solid rgb(227, 119, 5);
-    padding: 10px;
-    border-radius: 25px;
+.navbarCenter .signInbth{
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 3px solid #f06225;
+    color: #f06225;
+    border-radius: 8px;
 }
-.navbarmenu .active{
-    padding-bottom: 2px;
-    border-bottom: 2px solid rebeccapurple;
+.navbarRight{
+    display: none;
+}
+.navbarRight .hicon{
+    height: 50px;
+    width: 50px;
+}
+@media screen and (max-width:426px) {
+
+    .navbarRight {
+        display: block;
+    }
+    .navbarCenter{
+        position: absolute;
+        top: 48px;
+        right:56px;
+        flex-direction: column;
+        background-color: bisque;
+    }
+    .navbarCenter ul{
+        flex-direction: column;
+    }
 }
