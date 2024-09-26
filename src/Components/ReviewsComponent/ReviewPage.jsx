@@ -4,7 +4,7 @@ const ReviewPage = () => {
         <>
             <div className="reviewMainContent">
                 <div className="reviewHeadLine" data-aos="fade-right">
-                    <h1><span>Customer's</span> Review</h1>
+                    <h1 className='.quicksandFont'><span>Customer's</span> Review</h1>
                 </div>
                 <div className="reviewContentBox">
                     <div className="reviewBox" data-aos="flip-right">

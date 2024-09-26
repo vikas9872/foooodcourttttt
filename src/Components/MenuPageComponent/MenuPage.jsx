@@ -9,11 +9,8 @@ const MenuPage = () => {
                 <div className="menuMainContent">
                     <div className="mDishBox" data-aos="flip-right">
                         <div className="mimgPart">
-                            <div className="iconimgPart">
-                                <img src="./Images/heartIcon.png" alt="heartIcon" className='heartIcon' data-aos="fade-right" />
-                            </div>
                             <div className="mdishImg">
-                                <img src="./Images/chickpeaCurry.jpg" alt="curryOne" className='mimg' />
+                                <img src="./Images/fruitSalad.png" alt="curryOne" className='mimg' />
                             </div>
                         </div>
                         <div className="mdishContentPart" >
@@ -25,7 +22,7 @@ const MenuPage = () => {
                                 <span className="fa fa-star-half-o mchecked"></span>
                             </div>
                             <div className="mdishNamePart">
-                                <h1>Chick Pea Curry</h1>
+                                <h1>Fruit Salad</h1>
                             </div>
                             <div className="expln">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quas!</p>
@@ -35,18 +32,15 @@ const MenuPage = () => {
                                     <p>Cost: $99</p>
                                 </div>
                                 <div className="morder">
-                                    <button className="morderbtns">Add to cart</button>
+                                    <button className='morderbtns'>Add to cart</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="mDishBox" data-aos="flip-right">
                         <div className="mimgPart">
-                            <div className="iconimgPart">
-                                <img src="./Images/heartIcon.png" alt="heartIcon" className='heartIcon' />
-                            </div>
                             <div className="mdishImg">
-                                <img src="./Images/chickpeaCurry.jpg" alt="curryOne" className='mimg' />
+                                <img src="./Images/vegSalad.png" alt="curryOne" className='mimg' />
                             </div>
                         </div>
                         <div className="mdishContentPart">
@@ -58,7 +52,7 @@ const MenuPage = () => {
                                 <span className="fa fa-star-half-o mchecked"></span>
                             </div>
                             <div className="mdishNamePart">
-                                <h1>Chick Pea Curry</h1>
+                                <h1>Vegetable Salad</h1>
                             </div>
                             <div className="expln">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quas!</p>
@@ -68,18 +62,15 @@ const MenuPage = () => {
                                     <p>Cost: $99</p>
                                 </div>
                                 <div className="morder">
-                                    <button className="morderbtns">Add to cart</button>
+                                    <button className='morderbtns'>Add to cart</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="mDishBox" data-aos="flip-right">
                         <div className="mimgPart">
-                            <div className="iconimgPart">
-                                <img src="./Images/heartIcon.png" alt="heartIcon" className='heartIcon' />
-                            </div>
                             <div className="mdishImg">
-                                <img src="./Images/chickpeaCurry.jpg" alt="curryOne" className='mimg' />
+                                <img src="./Images/chickpeaCurry.png" alt="curryOne" className='mimg' />
                             </div>
                         </div>
                         <div className="mdishContentPart">
@@ -101,18 +92,15 @@ const MenuPage = () => {
                                     <p>Cost: $99</p>
                                 </div>
                                 <div className="morder">
-                                    <button className="morderbtns">Add to cart</button>
+                                    <button className='morderbtns'>Add to cart</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="mDishBox" data-aos="flip-left">
                         <div className="mimgPart">
-                            <div className="iconimgPart">
-                                <img src="./Images/heartIcon.png" alt="heartIcon" className='heartIcon' />
-                            </div>
                             <div className="mdishImg">
-                                <img src="./Images/chickpeaCurry.jpg" alt="curryOne" className='mimg' />
+                                <img src="./Images/dosa.png" alt="curryOne" className='mimg' />
                             </div>
                         </div>
                         <div className="mdishContentPart">
@@ -124,7 +112,7 @@ const MenuPage = () => {
                                 <span className="fa fa-star-half-o mchecked"></span>
                             </div>
                             <div className="mdishNamePart">
-                                <h1>Chick Pea Curry</h1>
+                                <h1>Dosa</h1>
                             </div>
                             <div className="expln">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quas!</p>
@@ -134,18 +122,15 @@ const MenuPage = () => {
                                     <p>Cost: $99</p>
                                 </div>
                                 <div className="morder">
-                                    <button className="morderbtns">Add to cart</button>
+                                    <button className='morderbtns'>Add to cart</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="mDishBox" data-aos="flip-left">
                         <div className="mimgPart">
-                            <div className="iconimgPart">
-                                <img src="./Images/heartIcon.png" alt="heartIcon" className='heartIcon' />
-                            </div>
                             <div className="mdishImg">
-                                <img src="./Images/chickpeaCurry.jpg" alt="curryOne" className='mimg' />
+                                <img src="./Images/vegFriedRice.png" alt="curryOne" className='mimg' />
                             </div>
                         </div>
                         <div className="mdishContentPart">
@@ -157,7 +142,7 @@ const MenuPage = () => {
                                 <span className="fa fa-star-half-o mchecked"></span>
                             </div>
                             <div className="mdishNamePart">
-                                <h1>Chick Pea Curry</h1>
+                                <h1>Veg Fried Rice</h1>
                             </div>
                             <div className="expln">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quas!</p>
@@ -167,18 +152,15 @@ const MenuPage = () => {
                                     <p>Cost: $99</p>
                                 </div>
                                 <div className="morder">
-                                    <button className="morderbtns">Add to cart</button>
+                                    <button className='morderbtns'>Add to cart</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="mDishBox" data-aos="flip-left">
                         <div className="mimgPart">
-                            <div className="iconimgPart">
-                                <img src="./Images/heartIcon.png" alt="heartIcon" className='heartIcon' />
-                            </div>
                             <div className="mdishImg">
-                                <img src="./Images/chickpeaCurry.jpg" alt="curryOne" className='mimg' />
+                                <img src="./Images/vegRolls.png" alt="curryOne" className='mimg' />
                             </div>
                         </div>
                         <div className="mdishContentPart">
@@ -190,7 +172,7 @@ const MenuPage = () => {
                                 <span className="fa fa-star-half-o mchecked"></span>
                             </div>
                             <div className="mdishNamePart">
-                                <h1>Chick Pea Curry</h1>
+                                <h1>Veg Sausage Rolls</h1>
                             </div>
                             <div className="expln">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quas!</p>
@@ -200,7 +182,7 @@ const MenuPage = () => {
                                     <p>Cost: $99</p>
                                 </div>
                                 <div className="morder">
-                                    <button className="morderbtns">Add to cart</button>
+                                    <button className='morderbtns'>Add to cart</button>
                                 </div>
                             </div>
                         </div>

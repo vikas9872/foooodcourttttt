@@ -1,5 +1,5 @@
 .splDishesContentBox {
-    padding-top: 10vh;
+    padding-top: 7vh;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -10,12 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
     height: 20vh;
 }
 
 .firstPart {
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .dishesHeadLine span {
@@ -34,7 +33,11 @@
 .dishesBox {
     height: 320px;
     width: 400px;
-    border: 2px solid #f06625;
+    background: rgba(240, 102, 37, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .imgPart {
@@ -49,69 +52,82 @@
     width: 80%;
 }
 
-.dishcontentPart{
+.dishcontentPart {
     height: 40%;
     display: flex;
     flex-direction: column;
 }
-.dishNamePart{
+
+.dishNamePart {
     height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.dishNamePart h2{
+
+.dishNamePart h2 {
     color: #f06225;
 }
-.ratings{
+
+.ratings {
     height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
 }
-.checked{
+
+.checked {
     color: #f06625;
 }
-.amtOrder{
+
+.amtOrder {
     height: 40%;
     display: flex;
 }
-.amt{
+
+.amt {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.amt p{
-    color:#f06225;
+
+.amt p {
+    color: #f06225;
 }
-.order{
+
+.order {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.orderbtns{
+
+.orderbtns {
     width: 90%;
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
     padding-top: 10px;
     background-color: #f06225;
     border: 1px solid #f06225;
     border-radius: 8px;
     color: #ffff;
 }
+
 @media screen and (max-width:426px) {
-    .splDishesContentBox{
+    .splDishesContentBox {
         height: auto;
         width: auto;
     }
-    .dishesHeadLine{
+
+    .dishesHeadLine {
         height: 10vh;
     }
+
     .firstPart {
         font-size: 45px;
     }
+
     .dishesMainContent {
         padding: 8px;
         display: flex;

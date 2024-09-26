@@ -1,10 +1,16 @@
 .reviewMainContent{
-    padding-top: 10vh;
+    padding-top: 5vh;
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100%;
 }
+.quicksandFont{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
 .reviewHeadLine{
     display: flex;
     justify-content: center;
@@ -12,7 +18,7 @@
     height: 20vh;
 }
 .reviewHeadLine h1{
-    font-size: 100px;
+    font-size: 70px;
 }
 .reviewHeadLine h1 span{
     color: #f06625;
@@ -28,9 +34,12 @@
 .reviewBox{
     height: 320px;
     width: 400px;
-    border: 2px solid #f06625;
     display: flex;
     flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 .userContent{
     height: 30%;
@@ -82,5 +91,9 @@
     }
     .reviewHeadLine h1{
         font-size:  50px;
+    }
+    .commentImgclass{
+        height: 120px;
+        width: 120px;
     }
 }

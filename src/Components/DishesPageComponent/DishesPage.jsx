@@ -9,7 +9,7 @@ const DishesPage = () => {
                 <div className="dishesMainContent">
                     <div className="dishesBox" data-aos="flip-right">
                         <div className="imgPart">
-                            <img src="./Images/chickpeaCurry.jpg" alt="imgOne" className="img" />
+                            <img src="./Images/chickpeaCurry.png" alt="imgOne" className="img" />
                         </div>
                         <div className="dishcontentPart">
                             <div className="dishNamePart">
@@ -34,7 +34,7 @@ const DishesPage = () => {
                     </div>
                     <div className="dishesBox" data-aos="flip-right">
                         <div className="imgPart">
-                            <img src="./Images/fruitSalad.jpg" alt="imgOne" className="img" />
+                            <img src="./Images/fruitSalad.png" alt="imgOne" className="img" />
                         </div>
                         <div className="dishcontentPart">
                             <div className="dishNamePart">
@@ -59,7 +59,7 @@ const DishesPage = () => {
                     </div>
                     <div className="dishesBox" data-aos="flip-right">
                         <div className="imgPart">
-                            <img src="./Images/vegSalad.jpg" alt="imgOne" className="img" />
+                            <img src="./Images/vegSalad.png" alt="imgOne" className="img" />
                         </div>
                         <div className="dishcontentPart">
                             <div className="dishNamePart">
@@ -84,7 +84,7 @@ const DishesPage = () => {
                     </div>
                     <div className="dishesBox" data-aos="flip-left">
                         <div className="imgPart">
-                            <img src="./Images/vegFriedRice.jpg" alt="imgOne" className="img" />
+                            <img src="./Images/vegFriedRice.png" alt="imgOne" className="img" />
                         </div>
                         <div className="dishcontentPart">
                             <div className="dishNamePart">
@@ -109,7 +109,7 @@ const DishesPage = () => {
                     </div>
                     <div className="dishesBox" data-aos="flip-left">
                         <div className="imgPart">
-                            <img src="./Images/dosa.jpg" alt="imgOne" className="img" />
+                            <img src="./Images/dosa.png" alt="imgOne" className="img" />
                         </div>
                         <div className="dishcontentPart">
                             <div className="dishNamePart">
@@ -134,7 +134,7 @@ const DishesPage = () => {
                     </div>
                     <div className="dishesBox" data-aos="flip-left">
                         <div className="imgPart">
-                            <img src="./Images/vegSausageRolls.jpg" alt="imgOne" className="img" />
+                            <img src="./Images/vegRolls.png" alt="imgOne" className="img" />
                         </div>
                         <div className="dishcontentPart">
                             <div className="dishNamePart">
